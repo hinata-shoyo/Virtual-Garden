@@ -13,7 +13,7 @@ const Explore = () => {
 
   const getdata = async () => {
     try {
-      const response = await axios.get(`http://localhost:3000/`);
+      const response = await axios.get(`https://virtual-garden-4fap.vercel.app/`);
       console.log(response.data.response.token);
       const token = response.data.response.token;
       const reponse = await axios.get(
