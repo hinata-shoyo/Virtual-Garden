@@ -44,7 +44,6 @@
 .plant-data{
     position: absolute ;
     /* background-color: beige; */
-    overflow: scroll;
     width: 1000px;
     left: 38vw;
     top: 15vw;
