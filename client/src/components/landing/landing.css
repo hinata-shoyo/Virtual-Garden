@@ -1,0 +1,228 @@
+
+
+.app {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    /* display: grid; */
+    background: linear-gradient(135deg, #81c784, #66bb6a);
+    color: white;
+    display: flex;
+    /* justify-content: left; */
+    /* align-items: center; */
+    text-align:center;
+    padding-left: 260px;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin-top: 400px;
+  }
+  .logo{
+    position: absolute;
+    top: 15px;
+    cursor: pointer;
+    left: 15px;
+    width: 150px;
+  }
+
+  .scroll-btn {
+    margin-top: 200px;
+    padding: 12px 14px;
+    width: 300px;
+    background: #ffffff;
+    color: #66bb6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .flex{
+    display: flex;
+  }
+  
+  ._3dimg{
+    height: 100vh;
+    /* display: inline; */
+    margin-top: -190px;
+
+    margin-left: 200px;
+  }
+
+  .scroll-btn:hover {
+    background: #e8f5e9;
+    color: #388e3c;
+  }
+  
+  /* Introduction Section */
+  .intro-section {
+    padding: 100px 20px;
+    background-color: #f1f8e9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .intro-content {
+    max-width: 500px;
+  }
+  
+  .intro-content h2 {
+    font-size: 2.5rem;
+    color: #388e3c;
+  }
+  
+  .intro-content p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #2e7d32;
+  }
+  
+  .intro-img {
+    max-width: 400px;
+  }
+  
+  .intro-img img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Featured Plants Section */
+  .featured-section {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .featured-section h2 {
+    font-size: 2.5rem;
+    color: #4caf50;
+    margin-bottom: 50px;
+  }
+  
+  .plants-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .plant-card {
+    width: 200px;
+    padding: 20px;
+    background-color: #f1f8e9;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition:  0.1s ease-in-out;
+  }
+  
+  .plant-card img {
+    width: 100%;
+    border-radius: 8px;
+    /* margin-top: ; */
+    /* margin-bottom: 0px; */
+  }
+  .tulsi{
+    position: relative;
+    bottom: -50px;
+  }
+
+  .plant-card h3 {
+    /* position: absolute; */
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #2e7d32;
+  }
+  
+  /* Virtual Tour Section */
+  .tour-section {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #e0f2f1;
+  }
+  
+  .tour-section h2 {
+    font-size: 2.5rem;
+    color: #00796b;
+    margin-bottom: 30px;
+  }
+  
+  .tour-section p {
+    font-size: 1.2rem;
+    color: #004d40;
+    margin-bottom: 40px;
+  }
+  
+  .tour-preview img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .tour-preview:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Call to Action Section */
+  .call-to-action {
+    padding: 100px 20px;
+    background-color: #a5d6a7;
+    text-align: center;
+  }
+  
+  .call-to-action h2 {
+    font-size: 2.5rem;
+    color: #388e3c;
+    margin-bottom: 20px;
+  }
+  
+  .call-to-action p {
+    font-size: 1.2rem;
+    color: #2e7d32;
+    margin-bottom: 40px;
+  }
+  
+  .scroll-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #ffffff;
+    color: #66bb6a;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .scroll-btn:hover {
+    background: #e8f5e9;
+    color: #388e3c;
+  }
+
+  .scroll-btnn{
+    margin-top: 20px;
+    padding: 12px 40px;
+    background: #66bb6a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+
+    &:hover{
+      background: #6daa70;
+      color: #f6f6f6;
+
+    }
+  }
+  

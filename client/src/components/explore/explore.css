@@ -1,0 +1,98 @@
+.page {
+  background-color: #d5dace;
+  box-sizing: border-box;
+  height:2800px;
+}
+
+/* EXPLORE */
+.exploreTIT {
+  position: absolute;
+  width: 699px;
+  height: 155px;
+  left: 120px;
+  top: 200px;
+
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 121px;
+}
+
+/* color: #000000; */
+
+.search {
+  position: absolute;
+  width: 360px;
+  height: 57px;
+  left: 1380px;
+  top: 230px;
+  padding: 0px 30px;
+  outline: none;
+  border: 2px solid rgba(125, 120, 120, 0.507);
+  background: #dbdfdd;
+  border-radius: 30px;
+  font-size: larger;
+  transition: 0.1s ease-in-out;
+    &:hover {
+        box-shadow: 0 3px 12px rgba(32, 18, 18, 0.519);
+        scale: 1.02;
+    }
+}
+
+.search:focus {
+  border: 2px solid rgba(125, 120, 120, 0.507);
+}
+
+.cards {
+  /* margin-top: 450px; */
+  display: flex;
+  /* overflow-x: hidden */
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  position: absolute;
+  top: 480px;
+  margin-left: 120px;
+  /* height: 35px; */
+  /* width: 200px; */
+}
+
+
+.center {
+  text-align: center;
+}
+
+.pagination {
+  display: inline-block;
+  position: relative;
+  top: 2580px;
+}
+
+.pagination button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #8d998a;
+  margin: 0 4px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination button.active {
+  background-color: #4CAF50;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination button:hover:not(.active) {background-color: #ddd;}
+
+.centerLoad{
+  position: absolute;
+  left: 40vw;
+  top: 20vh;
+
+}
