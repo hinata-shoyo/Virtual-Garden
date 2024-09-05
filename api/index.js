@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get("/", async (req, res) => {
     const response = await axios.post("https://trefle.io/api/auth/claim",{
-        origin:"http://localhost:5173",
+        origin:"https://virtual-garden-blue.vercel.app/",
         token: process.env.API_TOKEN
     },{
         headers:{
