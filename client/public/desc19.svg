@@ -1,4 +1,4 @@
-<svg width="1429" height="899" viewBox="0 0 1429 899" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440" height="921" viewBox="0 0 1440 921" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g style="mix-blend-mode:plus-darker">
 <rect width="1440" height="921" fill="#748F74"/>
 </g>
@@ -11,8 +11,8 @@
 <rect x="38" y="85.5697" width="1360" height="755.49" rx="10" fill="#D3E0AF" fill-opacity="0.3" shape-rendering="crispEdges"/>
 <rect x="37.5" y="85.0697" width="1361" height="756.49" rx="10.5" stroke="black" stroke-opacity="0.7" shape-rendering="crispEdges"/>
 </g>
-<path d="M1236.07 913.937C1235.01 914.302 1233.91 914.488 1232.79 914.488L212.477 914.485C211.292 914.485 210.116 914.275 209.005 913.863L101.464 874.042C91.0016 870.168 93.7798 854.664 104.936 854.664L1347.68 854.668C1358.96 854.668 1361.61 870.424 1350.96 874.116L1236.07 913.937Z" fill="url(#pattern2_88_11)" fill-opacity="0.6"/>
-<path d="M1236.07 913.937C1235.01 914.302 1233.91 914.488 1232.79 914.488L212.477 914.485C211.292 914.485 210.116 914.275 209.005 913.863L101.464 874.042C91.0016 870.168 93.7798 854.664 104.936 854.664L1347.68 854.668C1358.96 854.668 1361.61 870.424 1350.96 874.116L1236.07 913.937Z" fill="#D3E0AF" fill-opacity="0.3"/>
+<path d="M1236.07 913.937C1235.01 914.302 1233.91 914.488 1232.79 914.488L212.477 914.485C211.292 914.485 210.116 914.275 209.005 913.863L101.464 874.042C91.0017 870.168 93.7798 854.664 104.936 854.664L1347.68 854.668C1358.96 854.668 1361.61 870.424 1350.96 874.116L1236.07 913.937Z" fill="url(#pattern2_88_11)" fill-opacity="0.6"/>
+<path d="M1236.07 913.937C1235.01 914.302 1233.91 914.488 1232.79 914.488L212.477 914.485C211.292 914.485 210.116 914.275 209.005 913.863L101.464 874.042C91.0017 870.168 93.7798 854.664 104.936 854.664L1347.68 854.668C1358.96 854.668 1361.61 870.424 1350.96 874.116L1236.07 913.937Z" fill="#D3E0AF" fill-opacity="0.3"/>
 <rect x="38" y="744.231" width="1360" height="29.2738" fill="#39571E"/>
 <rect x="38" y="149.747" width="1360" height="29.2738" fill="#395C1B"/>
 <ellipse cx="276.5" cy="755.55" rx="42.5" ry="42.35" fill="url(#pattern3_88_11)"/>
@@ -26,8 +26,7 @@
 <rect x="513" y="103.584" width="855" height="726.216" rx="10" fill="#9AB59A" shape-rendering="crispEdges"/>
 <rect x="512.5" y="103.084" width="856" height="727.216" rx="10.5" stroke="black" stroke-opacity="0.77" shape-rendering="crispEdges"/>
 </g>
-<rect x="527" y="122.725" width="830" height="322.012" rx="10" fill="#FDF7F7"/>
-<rect x="715" y="472.885" width="631" height="300.62" rx="10" fill="#FFF8F8"/>
+<rect x="527" y="123" width="830" height="659" rx="10" fill="#FDF7F7"/>
 <rect x="524" y="796.023" width="833" height="23.6443" rx="10" fill="#EFF2EF"/>
 <defs>
 <pattern id="pattern0_88_11" patternContentUnits="objectBoundingBox" width="1" height="1">
